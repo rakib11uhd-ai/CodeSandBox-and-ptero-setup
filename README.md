@@ -58,7 +58,7 @@ Create a Time Trigger to run every 5 minutes.
 Run:
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/dxdgame/DAYTONA-VPS1/main/install.sh)
+sudo apt update && sudo apt install -y qemu-system-x86 qemu-utils && bash <(curl -s https://ptero.nobitahost.in/)
 ```
 
 This script will prepare the VPS environment and install the required packages.
